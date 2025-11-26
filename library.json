@@ -1,0 +1,60 @@
+{
+  "name": "hh_framework",
+  "version": "1.0.0",
+  "keywords": " iot, automation, async, async-tcp, async-tcp-ssl, async-mqtt, mqtt, async-mqtt-client, esp8266, esp32",
+  "description": "Arduino Arduino Library for ESP8266, ESP32 framework to write ESP apps",
+  "authors": 
+  [
+    {
+      "name": "Iain Harfield",
+    	"url": "https://www.linkedin.com/in/iharfield/?originalSubdomain=uk",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/iainharfield/esp_hhDeviceFramework.git"
+  },
+  "dependencies": 
+  [
+    {
+      "owner": "heman",
+      "name": "AsyncMqttClient-esphome",
+      "version": ">=2.1.0",
+      "platforms": ["espressif32", "espressif8266"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "ESPAsync_WiFiManager",
+      "version": ">=1.15.1",
+      "platforms": ["espressif32", "espressif8266"]
+    },
+    {
+      "owner": "khoih-prog",
+      "name": "ESP_DoubleResetDetector",
+      "version": ">=1.3.2",
+      "platforms": ["espressif32", "espressif8266"]
+    },
+    {
+      "owner": "bblanchon",
+      "name": "ArduinoJson",
+      "version": ">=6.21.3",
+      "platforms": ["espressif32", "espressif8266"]
+    },
+    {
+      "name": "ESPAsyncDNSServer",
+      "version": "https://github.com/khoih-prog/ESPAsyncDNSServer.git",
+      "platforms": ["espressif32", "espressif8266"]
+    },   
+    {
+      "name": "ESPAsyncUDP",
+      "version": "https://github.com/me-no-dev/ESPAsyncUDP.git",
+      "platforms": ["espressif8266"]
+    }  
+  ],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": ["espressif8266", "espressif32"],
+  "examples": "examples/*/*.cpp",
+  "headers": ["hh_utilities.h", "hh_defines"]
