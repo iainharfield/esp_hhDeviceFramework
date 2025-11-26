@@ -58,3 +58,4 @@
   "platforms": ["espressif8266", "espressif32"],
   "examples": "examples/*/*.cpp",
   "headers": ["hh_utilities.h", "hh_defines"]
+}
