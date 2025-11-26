@@ -51,6 +51,11 @@
       "name": "ESPAsyncUDP",
       "version": "https://github.com/me-no-dev/ESPAsyncUDP.git",
       "platforms": ["espressif8266"]
+    },
+    {
+      "name": "ESPAsyncWebServer",
+      "version": "https://github.com/me-no-dev/ESPAsyncWebServer",
+      "platforms": ["espressif32", "espressif8266"]
     }  
   ],
   "license": "MIT",
